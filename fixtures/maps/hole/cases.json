@@ -1,0 +1,20 @@
+{
+  "costmap_params": {
+    "robot_radius_m": 0.12,
+    "inflation_radius_m": 0.12,
+    "cost_decay": 0
+  },
+  "cases": [
+    {
+      "id": "coverage_hole",
+      "type": "coverage",
+      "start": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "linker": "astar",
+      "overlap_m": 0.02,
+      "coverage_success_threshold": 0.95
+    }
+  ]
+}

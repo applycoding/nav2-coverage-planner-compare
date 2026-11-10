@@ -1,0 +1,23 @@
+nav2-coverage-planner-compare, Copyright 2026 Arpan Bom
+
+This product includes software developed as a portfolio demonstration.
+No third-party planner source code is vendored in this repository.
+
+Idea credits (conceptual references only; no source copied):
+  - AtsushiSakai/PythonRobotics (MIT)
+  - ros-navigation/navigation2 — NavFn, Smac 2D, Theta*, costmap_2d (Apache-2.0 / BSD-3-Clause)
+  - Fields2Cover/Fields2Cover (BSD-3-Clause)
+  - open-navigation/opennav_coverage (Apache-2.0)
+  - nobleo/full_coverage_path_planner (Apache-2.0)
+  - anvaka/ngraph.path, ngraph.path.demo (MIT)
+  - bgrins/javascript-astar (MIT)
+  - motion-planning/rrt-algorithms (MIT)
+
+Idea-only (do not derive code): ethz-asl/polygon_coverage_planning (GPL-3.0),
+  nav2_amcl (LGPL-2.1-or-later).
+
+Dependencies (fetched via CMake FetchContent; not relicensed):
+  - GoogleTest (BSD-3-Clause)
+  - pybind11 (BSD-3-Clause)
+  - nlohmann/json (MIT)
+  - yaml-cpp (MIT)

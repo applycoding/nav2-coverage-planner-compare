@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: Apache-2.0
+[project]
+name = "nav2-coverage-planner-compare"
+version = "0.1.0"
+description = "Portfolio demo: coverage and global planners on Nav2-style costmaps"
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "Arpan Bom", email = "applycoding@gmail.com" }]
+
+[tool.pytest.ini_options]
+testpaths = ["python/tests"]
+pythonpath = ["build/python"]

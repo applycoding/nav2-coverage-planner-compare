@@ -1,0 +1,33 @@
+{
+  "astar_unreachable": {
+    "clearance_m": null,
+    "coverage_ratio_reachable": 0.0,
+    "coverage_ratio_total": 0.0,
+    "length_m": 0.0,
+    "objective_cost": 0.0,
+    "path": [],
+    "reason": "unreachable",
+    "success": false
+  },
+  "goal_in_obstacle": {
+    "clearance_m": null,
+    "coverage_ratio_reachable": 0.0,
+    "coverage_ratio_total": 0.0,
+    "length_m": 0.0,
+    "objective_cost": 0.0,
+    "path": [],
+    "reason": "goal_in_obstacle",
+    "success": false
+  },
+  "rrt_timeout": {
+    "clearance_m": null,
+    "coverage_ratio_reachable": 0.0,
+    "coverage_ratio_total": 0.0,
+    "length_m": 0.0,
+    "objective_cost": 0.0,
+    "path": [],
+    "reason": "timeout",
+    "rrt_vertices": 228,
+    "success": false
+  }
+}

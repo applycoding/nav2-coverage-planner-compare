@@ -1,0 +1,35 @@
+{
+  "costmap_params": {
+    "robot_radius_m": 0.08,
+    "inflation_radius_m": 0.08,
+    "cost_decay": 0
+  },
+  "cases": [
+    {
+      "id": "lethal_unknown",
+      "planner": "astar",
+      "unknown_policy": "lethal",
+      "start": {
+        "x": 0.5,
+        "y": 0.05
+      },
+      "goal": {
+        "x": 1.5,
+        "y": 0.05
+      }
+    },
+    {
+      "id": "free_unknown",
+      "planner": "astar",
+      "unknown_policy": "free",
+      "start": {
+        "x": 0.5,
+        "y": 0.05
+      },
+      "goal": {
+        "x": 1.5,
+        "y": 0.05
+      }
+    }
+  ]
+}

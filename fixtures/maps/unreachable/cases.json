@@ -1,0 +1,47 @@
+{
+  "costmap_params": {
+    "robot_radius_m": 0.1,
+    "inflation_radius_m": 0.1,
+    "cost_decay": 0
+  },
+  "cases": [
+    {
+      "id": "astar_unreachable",
+      "planner": "astar",
+      "start": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "goal": {
+        "x": 1.5,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "goal_in_obstacle",
+      "planner": "astar",
+      "start": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "goal": {
+        "x": 1.05,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "rrt_timeout",
+      "planner": "rrt_star",
+      "start": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "goal": {
+        "x": 1.5,
+        "y": 1.0
+      },
+      "rrt_seed": 7,
+      "rrt_max_iterations": 500
+    }
+  ]
+}

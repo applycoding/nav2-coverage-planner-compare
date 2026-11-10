@@ -1,0 +1,21 @@
+{
+  "costmap_params": {
+    "robot_radius_m": 0.22,
+    "inflation_radius_m": 0.22,
+    "cost_decay": 0
+  },
+  "cases": [
+    {
+      "id": "blocked_gap",
+      "planner": "astar",
+      "start": {
+        "x": 0.5,
+        "y": 1.05
+      },
+      "goal": {
+        "x": 2.5,
+        "y": 1.05
+      }
+    }
+  ]
+}

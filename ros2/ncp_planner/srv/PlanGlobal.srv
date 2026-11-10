@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: Apache-2.0
+geometry_msgs/PoseStamped start
+geometry_msgs/PoseStamped goal
+string planner_id
+uint32 rrt_seed
+int32 rrt_max_iterations
+---
+nav_msgs/Path path
+bool success
+string reason
+float64 length_m
+float64 objective_cost

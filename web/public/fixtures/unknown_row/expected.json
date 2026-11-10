@@ -1,0 +1,67 @@
+{
+  "free_unknown": {
+    "clearance_m": null,
+    "coverage_ratio_reachable": 0.0,
+    "coverage_ratio_total": 0.0,
+    "length_m": 1.0,
+    "objective_cost": 0.9999999999999999,
+    "path": [
+      {
+        "x": 0.5,
+        "y": 0.05
+      },
+      {
+        "x": 0.65,
+        "y": 0.05
+      },
+      {
+        "x": 0.75,
+        "y": 0.05
+      },
+      {
+        "x": 0.8500000000000001,
+        "y": 0.05
+      },
+      {
+        "x": 0.9500000000000001,
+        "y": 0.05
+      },
+      {
+        "x": 1.05,
+        "y": 0.05
+      },
+      {
+        "x": 1.1500000000000001,
+        "y": 0.05
+      },
+      {
+        "x": 1.25,
+        "y": 0.05
+      },
+      {
+        "x": 1.35,
+        "y": 0.05
+      },
+      {
+        "x": 1.4500000000000002,
+        "y": 0.05
+      },
+      {
+        "x": 1.5,
+        "y": 0.05
+      }
+    ],
+    "reason": "",
+    "success": true
+  },
+  "lethal_unknown": {
+    "clearance_m": null,
+    "coverage_ratio_reachable": 0.0,
+    "coverage_ratio_total": 0.0,
+    "length_m": 0.0,
+    "objective_cost": 0.0,
+    "path": [],
+    "reason": "start_in_obstacle",
+    "success": false
+  }
+}

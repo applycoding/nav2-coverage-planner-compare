@@ -1,0 +1,60 @@
+{
+  "costmap_params": {
+    "robot_radius_m": 0.15,
+    "inflation_radius_m": 0.15,
+    "cost_decay": 0,
+    "w_cost": 1
+  },
+  "cases": [
+    {
+      "id": "astar_to_goal",
+      "planner": "astar",
+      "start": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "goal": {
+        "x": 1.5,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "dijkstra_to_goal",
+      "planner": "dijkstra",
+      "start": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "goal": {
+        "x": 1.5,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "lazy_theta",
+      "planner": "lazy_theta",
+      "start": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "goal": {
+        "x": 1.5,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "rrt_iter",
+      "planner": "rrt_star",
+      "start": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "goal": {
+        "x": 1.8,
+        "y": 1.8
+      },
+      "rrt_seed": 42,
+      "rrt_max_iterations": 3000
+    }
+  ]
+}

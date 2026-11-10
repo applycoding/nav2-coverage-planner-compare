@@ -1,0 +1,21 @@
+{
+  "costmap_params": {
+    "robot_radius_m": 0.15,
+    "inflation_radius_m": 0.15,
+    "cost_decay": 0
+  },
+  "cases": [
+    {
+      "id": "corridor_astar",
+      "planner": "astar",
+      "start": {
+        "x": 0.5,
+        "y": 1.05
+      },
+      "goal": {
+        "x": 2.5,
+        "y": 1.05
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "start_eq_goal": {
+    "clearance_m": null,
+    "coverage_ratio_reachable": 0.0,
+    "coverage_ratio_total": 0.0,
+    "length_m": 0.0,
+    "objective_cost": 0.0,
+    "path": [
+      {
+        "x": 0.05,
+        "y": 0.05
+      }
+    ],
+    "reason": "",
+    "success": true
+  }
+}

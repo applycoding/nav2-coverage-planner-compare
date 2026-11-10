@@ -1,0 +1,27 @@
+# SPDX-License-Identifier: Apache-2.0
+name: core
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install build deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake g++-13 python3.12 python3.12-venv
+      - name: Configure and build
+        run: |
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=g++-13 \
+            -DNCP_BUILD_PYTHON=ON -DNCP_BUILD_TESTS=ON -DNCP_BUILD_ROS=OFF
+          cmake --build build -j$(nproc)
+      - name: CTest
+        run: ctest --test-dir build --output-on-failure
+      - name: Pytest
+        run: |
+          python3.12 -m pip install -r python/requirements-dev.txt
+          PYTHONPATH=build/python python3.12 -m pytest -q python/tests

@@ -1,0 +1,12 @@
+{
+  "corridor_inflate": {
+    "clearance_m": null,
+    "coverage_ratio_reachable": 0.0,
+    "coverage_ratio_total": 0.0,
+    "length_m": 0.0,
+    "objective_cost": 0.0,
+    "path": [],
+    "reason": "unreachable",
+    "success": false
+  }
+}

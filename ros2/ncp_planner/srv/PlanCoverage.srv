@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: Apache-2.0
+geometry_msgs/PoseStamped start
+string linker_id
+float64 overlap_m
+float64 coverage_success_threshold
+---
+nav_msgs/Path path
+bool success
+string reason
+float64 coverage_ratio_reachable
+float64 length_m
