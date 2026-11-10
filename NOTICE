@@ -17,7 +17,10 @@ Idea-only (do not derive code): ethz-asl/polygon_coverage_planning (GPL-3.0),
   nav2_amcl (LGPL-2.1-or-later).
 
 Dependencies (fetched via CMake FetchContent; not relicensed):
-  - GoogleTest (BSD-3-Clause)
+  - GoogleTest (BSD-3-Clause), tests only
+  - nlohmann/json (MIT)
+  - yaml-cpp (MIT)
+  - pybind11 (BSD-3-Clause), Python bindings only
   - pybind11 (BSD-3-Clause)
   - nlohmann/json (MIT)
   - yaml-cpp (MIT)
